@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrunfoGame</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo - Escolha o seu atributo</h1>
+        <div id="button-style">
+            <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Próxima Rodada</button>
+        </div>
+          
+        <form id="form">
+            <div id="placar"></div>
+            <div id="quantidade-cartas"></div>
+
+            <div class="wrapper">
+                <div id="cartas">
+                    <div id="carta-jogador"></div>
+                    <div id="carta-maquina"></div>
+                </div>
+            </div>
+            <div id="resultado"></div>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
