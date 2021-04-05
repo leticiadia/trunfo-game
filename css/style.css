@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', monospace;
+    min-height: 184px;
+    background-image: url('https://www.misteriosdoespaco.blog.br/wp-content/uploads/2018/08/the-martian.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px; 
+}
+
+.page-title {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 235px;
+}
+
+.page-logo{
+    margin-top: -15px;
+}
+
+button  {
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+#button-style{
+    margin-left: 210px;
+}
+
+#btnSortear{
+    padding: 11px 9px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#btnProximaRodada{
+    padding: 11px 9px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btnJogar{
+    padding: 11px 23px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 260px;
+    height: 400px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 250px 260px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 130px;
+    font-size: 12px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 16px 5px
+
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.--spacing {
+    margin-left: -505px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 6px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: -70px;
+}
+
+
+#carta-jogador{
+    margin: 15px;
+}
+
+
+#carta-maquina{
+    margin-left: 680px;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+
+#resultado{
+    margin-top: -120px;
+
+    background: white;
+    width: 250px;
+    border-radius: 5px;
+    opacity: .8;
+    margin-left: 530px;
+
+    
+}
+
+
+#placar{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+#quantidade-cartas{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
